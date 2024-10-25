@@ -31,15 +31,14 @@ export default {
   },
   mounted() {
     AOS.init({
-      duration: 500, // Speed up the animation duration
+      duration: 500, 
       easing: 'ease-in-out',
-      once: true, // Animate only once
+      once: true, 
     });
   },
 };
 </script>
 
 <style scoped>
-/* No additional styles required for the animation since AOS handles it */
+
 </style>
-  

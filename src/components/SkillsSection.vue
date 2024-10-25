@@ -3,7 +3,6 @@
     <div class="container mx-auto text-center">
       <h2 class="text-4xl font-bold text-white mb-6" data-aos="fade-up">My Skills</h2> 
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
-        <!-- All skill items will fade in at the same time -->
         <div class="skill-item bg-black p-6 rounded-lg shadow-lg border border-gray-700" data-aos="fade-up"> 
           <h3 class="text-2xl font-semibold text-white">Web Design</h3> 
           <p class="text-gray-400">Creating visually appealing and user-friendly designs.</p> 
@@ -40,7 +39,7 @@ import 'aos/dist/aos.css';
 export default {
   mounted() {
     AOS.init({
-      duration: 500, // Faster animation
+      duration: 500,
       easing: 'ease-in-out', 
       once: true,
     });
