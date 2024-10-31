@@ -3,7 +3,7 @@
     <HeroSection @open-popup="openPopup" />
     <SkillsSection />
     <WorkSection />
-    <LegoContestWorkSection /> <!-- New LEGO contest work section -->
+    <LegoContestWorkSection /> 
     <ProcessSection />
     <FooterSection />  
     <ContactFormPopup ref="contactFormPopup" />

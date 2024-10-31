@@ -15,18 +15,6 @@
           <h3 class="text-2xl font-semibold text-white">Backend Development</h3> 
           <p class="text-gray-400">Developing server-side applications and managing databases.</p> 
         </div>
-        <div class="skill-item bg-black p-6 rounded-lg shadow-lg border border-gray-700" data-aos="fade-up"> 
-          <h3 class="text-2xl font-semibold text-white">UX/UI Design</h3> 
-          <p class="text-gray-400">Improving user experience through research and testing.</p> 
-        </div>
-        <div class="skill-item bg-black p-6 rounded-lg shadow-lg border border-gray-700" data-aos="fade-up"> 
-          <h3 class="text-2xl font-semibold text-white">SEO Optimization</h3> 
-          <p class="text-gray-400">Enhancing website visibility on search engines.</p> 
-        </div>
-        <div class="skill-item bg-black p-6 rounded-lg shadow-lg border border-gray-700" data-aos="fade-up"> 
-          <h3 class="text-2xl font-semibold text-white">Project Management</h3> 
-          <p class="text-gray-400">Coordinating and managing project timelines and deliverables.</p> 
-        </div>
       </div>
     </div>
   </section>
