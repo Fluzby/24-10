@@ -1,10 +1,8 @@
 <template>
   <div class="bg-black text-white min-h-screen">
     <HeroSection @open-popup="openPopup" />
-    <SkillsSection />
-    <WorkSection />
-    <LegoContestWorkSection /> 
-    <ProcessSection />
+    <Video />
+    <AE />
     <FooterSection />  
     <ContactFormPopup ref="contactFormPopup" />
   </div>
@@ -12,18 +10,16 @@
 
 <script>
 import HeroSection from './components/HeroSection.vue';
-import SkillsSection from './components/SkillsSection.vue';
-import WorkSection from './components/WorkSection.vue';
-import ProcessSection from './components/ProcessSection.vue';
+import Video from './components/Video.vue'
+import AE from './components/AE.vue'
 import FooterSection from './components/FooterSection.vue';
 import ContactFormPopup from './components/ContactFormPopup.vue';
 
 export default {
   components: {
     HeroSection,
-    SkillsSection,
-    WorkSection,
-    ProcessSection,
+    Video,
+    AE,
     FooterSection,
     ContactFormPopup,
   },
